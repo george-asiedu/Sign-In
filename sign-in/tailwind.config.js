@@ -13,7 +13,8 @@ module.exports = {
         height: '4px'
       }, 
       colors: {
-        logo: '#d5633c'
+        logo: '#d5633c',
+        hoverColor: '#eb9c7d'
       },
       gap: {
         gapLogo: '3px'

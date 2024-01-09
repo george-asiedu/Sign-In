@@ -26,7 +26,7 @@
     <form class="flex flex-col gap-4 w-width mb-10"> 
       <div class="">
         <label for="email" class="text-sky-900">Email</label>
-        <div class="flex items-center gap-3 px-5 py-1 border w-full border-slate-300 rounded-md focus-within:border-orange-600">
+        <div class="flex items-center gap-3 px-5 py-1 border w-full border-slate-300 rounded-md focus-within:border-hoverColor">
           <fa-icon [icon]="faEnvelope"></fa-icon>
           <input type="email" placeholder="Email" class="border-none w-full focus-within:outline-none placeholder:text-sky-900">
         </div>
@@ -34,18 +34,18 @@
       
       <div class="">
         <label for="password">Password</label>
-        <div class="flex items-center gap-3 px-5 py-1 border w-full border-slate-300 rounded-md focus-within:border-orange-600">
+        <div class="flex items-center gap-3 px-5 py-1 border w-full border-slate-300 rounded-md focus-within:border-hoverColor">
           <fa-icon [icon]="faLock" class=""></fa-icon>
           <input type="password" placeholder="Password" class="border-none w-full focus-within:outline-none placeholder:text-sky-900">
         </div>
       </div>
-      <button type="submit" class="bg-buttonBg w-32 text-lg rounded-md py-2 text-white font-medium shadow-lg">Sign in</button>
+      <button type="submit" class="bg-buttonBg w-32 text-lg rounded-md py-2 text-white font-medium shadow-lg hover:bg-orange-400">Sign in</button>
     </form>
 
-    <div class="flex items-center gap-4">
-      <p>Terms of service</p>
-      <p>Policy Privacy</p>
-      <p>Contact support</p>
+    <div class="flex items-center gap-8">
+      <p class="text-sm text-gray-500 hover:text-hoverColor cursor-pointer">Terms of service</p>
+      <p class="text-sm text-gray-500 hover:text-hoverColor cursor-pointer">Policy Privacy</p>
+      <p class="text-sm text-gray-500 hover:text-hoverColor cursor-pointer">Contact support</p>
     </div>
   </div>
 </div>
