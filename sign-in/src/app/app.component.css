@@ -1,0 +1,6 @@
+.bg-img {
+    background-image: url('../assets/login-2.gif');
+    background-position: center;
+    background-size: 45rem;
+    background-repeat: no-repeat;
+}
