@@ -16,6 +16,9 @@ module.exports = {
       },
       gap: {
         gapLogo: '3px'
+      },
+      letterSpacing: {
+        tight: '5px'
       }
     },
   },
