@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        orangeBg: '#f8e0d6'
+        orangeBg: '#f8e0d6',
+        buttonBg: '#eb9c7d'
       },
       height: {
         height: '4px'
@@ -19,6 +20,9 @@ module.exports = {
       },
       letterSpacing: {
         tight: '5px'
+      },
+      width: {
+        width: '380px'
       }
     },
   },

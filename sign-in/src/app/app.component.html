@@ -23,8 +23,29 @@
     <h2 class="text-sky-900 text-3xl mb-2 tracking-wide">Sign In</h2>
     <p class="tracking-wider text-gray-800 font-normal mb-8">Enter your credentials to access your account</p>
 
-    <form>
+    <form class="flex flex-col gap-4 w-width mb-10"> 
+      <div class="">
+        <label for="email" class="text-sky-900">Email</label>
+        <div class="flex items-center gap-3 px-5 py-1 border w-full border-slate-300 rounded-md focus-within:border-orange-600">
+          <fa-icon [icon]="faEnvelope"></fa-icon>
+          <input type="email" placeholder="Email" class="border-none w-full focus-within:outline-none placeholder:text-sky-900">
+        </div>
+      </div>
       
+      <div class="">
+        <label for="password">Password</label>
+        <div class="flex items-center gap-3 px-5 py-1 border w-full border-slate-300 rounded-md focus-within:border-orange-600">
+          <fa-icon [icon]="faLock" class=""></fa-icon>
+          <input type="password" placeholder="Password" class="border-none w-full focus-within:outline-none placeholder:text-sky-900">
+        </div>
+      </div>
+      <button type="submit" class="bg-buttonBg w-32 text-lg rounded-md py-2 text-white font-medium shadow-lg">Sign in</button>
     </form>
+
+    <div class="flex items-center gap-4">
+      <p>Terms of service</p>
+      <p>Policy Privacy</p>
+      <p>Contact support</p>
+    </div>
   </div>
 </div>
